@@ -45,6 +45,8 @@ public class AppController {
         Node node = nodes.item(0);
         System.out.println(node.getTextContent());
         
+        soapConnection.close();
+        
 	}
 
 }
